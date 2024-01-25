@@ -1,0 +1,19 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+    break-inside: avoid;
+  }
+  
+  @media (max-width: 768px) {
+    th,
+    td {
+      display: block;
+    }
+  }
